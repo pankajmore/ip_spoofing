@@ -1,0 +1,6 @@
+* Use socket library in python to create sockets and send packets
+* Craft a Spoofed IP packet for non-blind spoofing
+
+* Look for ways to receive the spoofed packet (ARP-cache poisioning??)
+
+* Build a demonstrable attack on top of it(MITM, session hijacking, DOS attack, etc)
