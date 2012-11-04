@@ -4,3 +4,5 @@
 * Look for ways to receive the spoofed packet (ARP-cache poisioning??)
 
 * Build a demonstrable attack on top of it(MITM, session hijacking, DOS attack, etc)
+
+*scapy module of python may prove to be useful for constructing IP and tcp packets -manish.
