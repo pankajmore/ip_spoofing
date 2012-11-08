@@ -8,6 +8,13 @@
 *scapy module of python may prove to be useful for constructing IP and tcp packets -manish.
 
 
-* First Task
+* Current Tasks
 ** Implement arp poision as shown in experiments/ using sockets @Akarshan
 ** Create a manual 'spoofed' IP packet similarly @Akshay
+** Find out how to read replies of spoofed packets @Pankaj
+
+* Next Tasks
+** Read the replies in our spoofer
+** Implement DDOS attack
+** Implement MITM attack
+** Implement Session Hijacking
