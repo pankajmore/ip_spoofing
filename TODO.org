@@ -10,3 +10,4 @@
 
 * First Task
 ** Implement arp poision as shown in experiments/ using sockets @Akarshan
+** Create a manual 'spoofed' IP packet similarly @Akshay
