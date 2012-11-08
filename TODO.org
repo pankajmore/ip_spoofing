@@ -6,3 +6,7 @@
 * Build a demonstrable attack on top of it(MITM, session hijacking, DOS attack, etc)
 
 *scapy module of python may prove to be useful for constructing IP and tcp packets -manish.
+
+
+* First Task
+** Implement arp poision as shown in experiments/ using sockets @Akarshan
